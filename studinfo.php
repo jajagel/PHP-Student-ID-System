@@ -6,10 +6,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body style="background-color:#053012;">  
-<div class="container">
-    <div class=" text-center mx-auto p-5" style="background-color: #FFFFFF; max-width: 60%; vertical-align: middle;" >
-        <h3>Form Submitted Successfully</h3>
-         <?php
+    <?php
             if(!empty($_GET)){
             $student = [];
             $student['first_name'] = $_GET['fname'];
@@ -28,7 +25,10 @@
             $str = print_r($studentArray, true);
             file_put_contents('student.txt', $str, FILE_APPEND);
             }
-        ?>    
+        ?>
+<div class="container">
+    <div class=" text-center mx-auto p-5" style="background-color: #FFFFFF; max-width: 60%; vertical-align: middle;" >
+        <h3>Form Submitted Successfully</h3>    
     </div>
 </div>
 
