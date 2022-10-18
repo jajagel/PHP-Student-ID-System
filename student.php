@@ -1,18 +1,9 @@
 <!DOCTYPE html>
 <html>
-<style>
-	.center{
-		display: flex;
-  		justify-content: center;
-  		align-items: center;
-	}
-</style>
 <head>
 	<title>Student ID System</title>
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-
-
 </head>
 <body style="background-color:#053012;">
 <div class="container">
@@ -43,12 +34,8 @@
 									 /><br>
 	
 				<input class ="btn btn-primary btn-block mt-2 mb-5" style="background-color: #053012; width:100%;"type ="submit" name="submit">
+			</form>
 	</div>
-</div>
-
-
-
-</form>
 </div>
 </body>
 </html>
