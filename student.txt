@@ -1,0 +1,16 @@
+Array
+(
+    [0] => Array
+        (
+            [first_name] => Crisostomo
+            [last_name] => Ibarra
+            [middle_initial] => M
+            [course] => BSIT
+            [school_id] => 20-1846-307
+            [address] => San Diego, Laguna
+            [birthdate] => 2002-06-08
+            [cp_name] => Rafael Ibarra
+            [cp_num] => 09657657534
+        )
+
+)
